@@ -1,0 +1,61 @@
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: black solid 1px;
+    margin: 5px;
+    gap: 10px;
+}
+
+.country:hover{
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+.flags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    padding:5px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.country-flags-container {
+    display: flex;
+}
+
+
+
